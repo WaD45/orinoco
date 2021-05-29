@@ -1,0 +1,149 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: #FFC008;
+}
+
+body a {
+    text-decoration: none;
+}
+
+
+/*------------------------------------------Contact.html------------------------------------------*/
+
+#formulaire p {
+    font-weight: 800;
+    color: #027BFF;
+}
+
+#formulaire label {
+    font-weight: 600;
+    font-size: small;
+    color: #027BFF;
+}
+
+.card-body h4 {
+    font-weight: 800;
+}
+
+
+/*------------------------------------------index.html------------------------------------------*/
+
+
+/*------------- navigation bar -------------*/
+
+.navbar {
+    list-style-type: none;
+}
+
+.navbar li a {
+    font-weight: 800;
+}
+
+.navbar-search input {
+    font-weight: 800;
+}
+
+
+/*------------- cards -------------*/
+
+.card-body h3 {
+    font-weight: 800;
+}
+
+.card-body p {
+    font-weight: 800;
+    font-style: italic;
+}
+
+.card-body a {
+    font-weight: 800;
+}
+
+
+/*------------- cards anim -------------*/
+
+.card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+
+/*------------------------------------------cart.html------------------------------------------*/
+
+.container-panier h4 {
+    font-weight: 800;
+    color: #027BFF;
+}
+
+.container-panier .font-weight-bold {
+    color: #027BFF;
+}
+
+.container-panier span {
+    font-weight: 800;
+    color: #000000;
+}
+
+.container-panier h5 {
+    font-weight: 800;
+    color: #4400ff;
+}
+
+.container-panier input {
+    font-weight: 800;
+}
+
+.container-panier button {
+    font-weight: 800;
+}
+
+.container-panier button {
+    font-weight: 800;
+}
+
+.size span {
+    font-size: 11px
+}
+
+.color span {
+    font-size: 11px
+}
+
+.product-deta {
+    margin-right: 70px
+}
+
+.gift-card:focus {
+    box-shadow: none
+}
+
+.pay-button {
+    color: #fff
+}
+
+.pay-button:hover {
+    color: #fff
+}
+
+.pay-button:focus {
+    color: #fff;
+    box-shadow: none
+}
+
+.text-grey {
+    color: #a39f9f
+}
+
+.qty i {
+    font-size: 11px
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Orinoco, le futur du e-commerce 'Made In France'" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e3e07a676e.js" crossorigin="anonymous"></script>
+    <title>Contact - Orinoco Staff</title>
+</head>
+
+<body>
+    <!-- Navbar header -->
+    <nav class="navbar navbar-expand-md  navbar-light  ">
+        <!-- Logo -->
+        <a class="navbar-brand mr-1" href="#!">
+            <img src="/assets/images/logo-transparent.png" height="50" alt="logo">
+        </a>
+        <!-- Liens -->
+        <div class="collapse navbar-collapse  bg-warning pt-2 pb-2 rounded mt-2" id="basicExampleNav13">
+            <li class="nav-item ml-5">
+                <a href="/index.html" class="nav-link waves-effect">Shop</a>
+            </li>
+            <!-- Barre de recherche -->
+            <li class="nav-item ml-5">
+                <a href="/contact.html" class="nav-link waves-effect">Contact</a>
+            </li>
+            <form class="navbar-search pl-5 ml-5 mt-3 mb-2 mt-md-0 mb-md-0 mr-5" action="">
+                <div class="input-group d-block d-md-flex mb-0">
+                    <div class="input-group-prepend">
+                        <a href="#!" class="input-icon d-flex align-items-center" type="button"><i class="fas fa-search text-white mx-3"></i></a>
+                        <input class="form-control white-text rgba-black-light border-0 z-depth-0 pl-5" type="text" placeholder="Chercher" aria-label="Search">
+                    </div>
+                </div>
+            </form>
+            <!-- Panier -->
+            <ul class="navbar-nav ml-5 pl-5">
+                <li class="nav-item">
+                    <a href="/cart.html" class="nav-link navbar-link-2 waves-effect">
+                        <span class="badge badge-pill text-danger">1</span>
+                        <i class="fas fa-shopping-cart text-primary pl-0"></i>
+                    </a>
+                </li>
+        </div>
+    </nav>
+    <!-- Formulaire de contact-->
+    <section id="formulaire" class="mb-4">
+
+        <!--Section heading-->
+        <h2 class="h1-responsive font-weight-bold text-center my-4">Nous contacter</h2>
+        <!--Section description-->
+        <p class="text-center w-responsive mx-auto mb-5">Avez-vous des questions? N'hésitez pas à nous contacter directement. Notre équipe reviendra vers vous au plus vite pour vous aider.</p>
+
+        <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-9 mb-md-0 ml-3 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Votre Nom</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Votre adresse mail</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Sujet</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                <label for="message">Votre message</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Grid row-->
+
+                </form>
+                <!--ajouter mail.php-->
+                <div id="btn-envoyer-form" class="text-center mt-3 text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Envoyer</a>
+                </div>
+
+            </div>
+            <!--Grid column-->
+
+            <div class="card text-left">
+
+                <div class="card-body pl-0 pr-0">
+                    <h4 class="card-title mb-4">Orinoco</h4>
+                    <p class="card-text">01.23.45.67.89</p>
+                    <p class="card-text">14 rue du commerce<br>75021 Paris</p>
+                    <p class="card-text">contact@orinoco.com</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

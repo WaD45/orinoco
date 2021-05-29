@@ -1,18 +1,115 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-    <title>Orinoco test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Orinoco, le futur du e-commerce 'Made In France'" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e3e07a676e.js" crossorigin="anonymous"></script>
+    <title>Orinoco, Leader Français du e-commerce</title>
 </head>
 
 <body>
-    g
+    <!-- Navbar header -->
+    <nav class="navbar navbar-expand-md  navbar-light  ">
+        <!-- Logo -->
+        <a class="navbar-brand mr-1" href="#!">
+            <img src="/assets/images/logo-transparent.png" height="50" alt="logo">
+        </a>
+        <!-- Liens -->
+        <div class="collapse navbar-collapse  bg-warning pt-2 pb-2 rounded mt-2" id="basicExampleNav13">
+            <li class="nav-item ml-5">
+                <a href="/index.html" class="nav-link waves-effect">Shop</a>
+            </li>
+            <!-- Barre de recherche -->
+            <li class="nav-item ml-5">
+                <a href="/contact.html" class="nav-link waves-effect">Contact</a>
+            </li>
+            <form class="navbar-search pl-5 ml-5 mt-3 mb-2 mt-md-0 mb-md-0 mr-5" action="">
+                <div class="input-group d-block d-md-flex mb-0">
+                    <div class="input-group-prepend">
+                        <a href="#!" class="input-icon d-flex align-items-center" type="button"><i class="fas fa-search text-white mx-3"></i></a>
+                        <input class="form-control white-text rgba-black-light border-0 z-depth-0 pl-5" type="text" placeholder="Chercher" aria-label="Search">
+                    </div>
+                </div>
+            </form>
+            <!-- Panier -->
+            <ul class="navbar-nav ml-5 pl-5">
+                <li class="nav-item">
+                    <a href="/cart.html" class="nav-link navbar-link-2 waves-effect">
+                        <span class="badge badge-pill text-danger">1</span>
+                        <i class="fas fa-shopping-cart text-primary pl-0"></i>
+                    </a>
+                </li>
+        </div>
+    </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!--cartes produits-->
+    <div class="card-deck pl-5 pr-5 pt-4 pb-3">
+        <div class="card">
+            <img class="card-img-top" src="/assets/images/oak_1.jpg" alt="cross table">
+            <div class="card-body">
+                <h3 class="card-title">Table en Croix</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="/product.html" class="btn btn-primary">Voir l'article</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="/assets/images/oak_2.jpg" alt="coffee table">
+            <div class="card-body">
+                <h3 class="card-title">Table à café</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="/product.html" class="btn btn-primary">Voir l'article</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="/assets/images/oak_3.jpg" alt="dining table">
+            <div class="card-body">
+                <h3 class="card-title">Table à dîner</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="/product.html" class="btn btn-primary">Voir l'article</a>
+            </div>
+        </div>
+    </div>
+    <div class="card-deck pl-5 pr-5 pt-3 pb-3">
+        <div class="card">
+            <img class="card-img-top" src="/assets/images/oak_4.jpg" alt="Bench">
+            <div class="card-body">
+                <h3 class="card-title">Banc</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="/product.html" class="btn btn-primary">Voir l'article</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="/assets/images/oak_5.jpg" alt="Vintage Chair">
+            <div class="card-body">
+                <h3 class="card-title">Chaise Vintage</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="/product.html" class="btn btn-primary">Voir l'article</a>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card-img-top" src="/assets/images/oak_5.jpg" alt="Vintage chair 2">
+            <div class="card-body">
+                <h3 class="card-title">Chaise Vintage</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="/product.html" class="btn btn-primary">Voir l'article</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
